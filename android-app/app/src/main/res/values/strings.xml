@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Text Simplification</string>
+    <string name="hint_input_text">Enter text to simplify…</string>
+    <string name="hint_target_grade">Target FK Grade (1–18, default 6)</string>
+    <string name="btn_simplify">Simplify</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_copy">Copy</string>
+    <string name="label_results">Results</string>
+    <string name="label_original_fk">Original FK Grade:</string>
+    <string name="label_final_fk">Final FK Grade:</string>
+    <string name="label_target_fk">Target FK Grade:</string>
+    <string name="label_attempts">Attempts:</string>
+    <string name="label_target_met">Target Met:</string>
+    <string name="label_provider">Provider:</string>
+    <string name="error_empty_input">Please enter some text to simplify.</string>
+    <string name="error_invalid_grade">Target grade must be between 1 and 18.</string>
+    <string name="error_api_unavailable">Could not reach the API. Check your backend URL.</string>
+    <string name="error_malformed_response">Unexpected response from server.</string>
+    <string name="copied_to_clipboard">Copied to clipboard!</string>
+    <string name="yes">Yes ✓</string>
+    <string name="no">No ✗</string>
+    <string name="loading">Simplifying…</string>
+</resources>
