@@ -145,7 +145,7 @@ class MistralActivationSteeringProvider(BaseSimplificationProvider):
 
         headers: dict[str, str] = {"Content-Type": "application/json"}
         if self._api_key:
-            headers["Authorization"] = f"******"
+            headers["Authorization"] = "Bearer " + self._api_key
 
         url = f"{self._base_url}/v1/chat/completions"
         try:
