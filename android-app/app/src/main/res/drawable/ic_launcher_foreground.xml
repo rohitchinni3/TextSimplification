@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <inset
+            android:insetLeft="18dp"
+            android:insetTop="18dp"
+            android:insetRight="18dp"
+            android:insetBottom="18dp">
+            <shape android:shape="rectangle">
+                <corners android:radius="18dp" />
+                <solid android:color="@color/yellow_accent" />
+            </shape>
+        </inset>
+    </item>
+    <item>
+        <inset
+            android:insetLeft="28dp"
+            android:insetTop="28dp"
+            android:insetRight="28dp"
+            android:insetBottom="28dp">
+            <shape android:shape="rectangle">
+                <corners android:radius="10dp" />
+                <solid android:color="@color/blue_primary_dark" />
+            </shape>
+        </inset>
+    </item>
+</layer-list>
