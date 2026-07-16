@@ -105,7 +105,7 @@
             android:indeterminate="true"
             android:visibility="gone"
             android:layout_marginBottom="8dp"
-            style="@android:style/Widget.ProgressBar.Horizontal" />
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
 
         <!-- Status/Error -->
         <TextView
